@@ -14,7 +14,6 @@ items.replace(inventory)
 cart = []
 inputChoice = ' '
 total = 0
-discount = 1
 while true
 	# List Items
 	puts
