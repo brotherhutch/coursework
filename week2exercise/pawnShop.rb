@@ -14,7 +14,6 @@ items.replace(inventory)
 cart = []
 inputChoice = ' '
 total = 0
-discount = 1
 while true
 	# List Items
 	puts
@@ -42,7 +41,7 @@ while true
 
 	#Add item(s) to cart
 	puts '-----'.rjust(63)
-	puts 'Subtotal:'.ljust(53) + "$#{total * discount}".to_s.rjust(10)
+	puts 'Subtotal:'.ljust(53) + "$#{total}".to_s.rjust(10)
 	puts
 	puts 'Choose an item to add to your cart.'
 	puts 'Enter anything else to continue:'
